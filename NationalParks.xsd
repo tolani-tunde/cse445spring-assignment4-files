@@ -20,8 +20,11 @@
 									</xsd:sequence>
 									<!-- Required -->
 									<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
+
 								</xsd:complexType>
+
 							</xsd:element>
+
 						</xsd:sequence>
 						<!--	Optional -->
 						<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks schemaLocation="https://raw.githubusercontent.com/tolani-tunde/cse445spring-assignment5-files/refs/heads/main/NationalParks.xsd">
+<NationalParks schemaLocation="https://raw.githubusercontent.com/tolani-tunde/cse445spring-assignment4-files/refs/heads/main/NationalParks.xsd">
 	<!-- Park 1 -->
 	<NationalPark>
 		<Name>Grand Canyon</Name>
@@ -32,7 +32,7 @@
 
 	<!-- Park 3-->
 	<NationalPark Rating="4.7">
-		<Name>Mammoth Cave National Park </Name>
+		<Name>Mammoth Cave National Park</Name>
 		<Phone>(270) 758-218</Phone>
 		<Address NearestAirport="Louisville Muhammad Ali International Airport">
 			<Number>1</Number>
@@ -47,7 +47,7 @@
 
 	<!-- Park 4-->
 	<NationalPark Rating="4.5">
-		<Name>Saguaro National Park (East District) </Name>
+		<Name>Saguaro National Park (East District)</Name>
 		<Phone>(520) 733-5153</Phone>
 		<Address NearestAirport="Tucson international Aiport">
 			<Number>3693</Number>
