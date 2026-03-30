@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<NationalParks>
+﻿<!--<?xml version="1.0" encoding="utf-8" ?-->
+
+<NationalParks schemaLocation="https://raw.githubusercontent.com/tolani-tunde/cse445spring-assignment5-files/refs/heads/main/NationalParks.xsd?token=GHSAT0AAAAAADYFPMF5ABI63ZLOOTNSHZMY2OJ6C4A">
 	<!-- Park 1 -->
 	<NationalPark>
 		<Name>Grand Canyon</Name>
