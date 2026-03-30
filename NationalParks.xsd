@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2002/XMLSchema">
+    <xsd:element name ="NationalParks">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="NationalPark" maxOccurs="unbounded" minOccurs="1">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name ="Name" type="xsd:string"/>
+							<xsd:element name ="Phone" type="xsd:string" maxOccurs="unbounded"/>
+							<xsd:element name ="Address">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Number" type="xsd:string"/>
+                                        <xsd:element name="Street" type= "xsd:string"/>
+                                        <xsd:element name="City" type= "xsd:string"/>
+                                        <xsd:element name="State" type= "xsd:string"/>
+                                        <xsd:element name="Zip" type= "xsd:string"/>
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+							<!--	Optional -->
+							<xsd:element name="Rating" type="xsd:decimal" minOccurs="0"/>
+                            <!-- Required -->
+                            <xsd:element name="NearestAiport" type="xsd:string"/>
+						
+						</xsd:sequence>
+					</xsd:complexType>					
+				</xsd:element>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>
