@@ -2,17 +2,17 @@
 <NationalPark>
 	<!-- Park 1 -->
 	<NationalPark>
-	<Name>Grand Canyon</Name>
-	<Phone>928-638-7496</Phone>
-	<Phone>888-297-2757</Phone>
-	<Phone>866-499-2574</Phone>
-	<Address NearestAirport="Flagstaff">
-		<number>8</number>
-		<Street>S Entrance Road</Street>
-		<City>Grand Canyon</City>
-		<State>AZ</State>
-		<Zip>86023</Zip>
-	</Address>
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="Flagstaff">
+			<number>8</number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
 
 </NationalPark>
 
