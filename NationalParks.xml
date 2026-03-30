@@ -7,7 +7,7 @@
 		<Phone>888-297-2757</Phone>
 		<Phone>866-499-2574</Phone>
 		<Address NearestAirport="Flagstaff">
-			<number>8</number>
+			<Number>8</Number>
 			<Street>S Entrance Road</Street>
 			<City>Grand Canyon</City>
 			<State>AZ</State>

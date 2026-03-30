@@ -19,7 +19,7 @@
 										<xsd:element name="Zip" type= "xsd:string"/>
 									</xsd:sequence>
 									<!-- Required -->
-									<xsd:element name="NearestAiport" type="xsd:string" use="required"/>
+									<xsd:element name="NearestAirport" type="xsd:string" use="required"/>
 
 								</xsd:complexType>
 
