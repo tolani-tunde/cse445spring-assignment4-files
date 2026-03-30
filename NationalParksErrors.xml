@@ -2,19 +2,19 @@
 <NationalPark schemaLocation="https://raw.githubusercontent.com/tolani-tunde/cse445spring-assignment5-files/refs/heads/main/NationalParks.xsd">
 	<!-- Park 1 -->
 	<NationalPark>
-	<Name>Grand Canyon</Name>
-	<Phone>928-638-7496</Phone>
-	<Phone>888-297-2757</Phone>
-	<Phone>866-499-2574</Phone>
-	<Address NearestAirport="Flagstaff">
-		<Number>8</Number>
-		<Street>S Entrance Road</Street>
-		<City>Grand Canyon</City>
-		<State>AZ</State>
-		<Zip>86023</Zip>
-	</Address>
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-499-2574</Phone>
+		<Address NearestAirport="Flagstaff">
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
 
-</NationalPark>
+	</NationalPark>
 
 	<!-- Park 2-->
 	<NationalPark>
@@ -33,6 +33,7 @@
 	<!-- Park 3-->
 	<NationalPark Rating="4.7">
 		<Name>Mammoth Cave National Park </Name>
+		<Name>Great Mammoth Park</Name> <!--two names-->
 		<Phone>(270) 758-218</Phone>
 		<Address NearestAirport="Louisville Muhammad Ali International Airport">
 			<Number>1</Number>
@@ -79,29 +80,28 @@
 	<NationalPark>
 		<Name>Everglades</Name>
 		<Phone>305 242-7700</Phone>
-		<Address NearestAirpot="Miami International Airport">
+		<Address NearestAirport="Miami International Airport">
 			<Number>40001</Number>
 			<Street>State Road 9336</Street>
 			<City>Homestead</City>
 			<State>FL</State>
 			<Zip>33034</Zip>
-		</Address>
+		<!-- missing address closing tag-->
 
 	</NationalPark>
 
 	<!-- Park 7-->
 	<NationalPark>
 		<Name>Great Basin </Name>
-		<Name>Nevada's Great Basin</Name>
-		
-		<Address>
+		<Phone>775-234-7331</Phone>
+		<Address NearestAirport="Cedar City Regional Airport">
 			<Number>100</Number>
 			<Street>Great Basin National Park</Street>
 			<City>Baker</City>
 			<State>NV</State>
 			<Zip>89311</Zip>
-		
-		
+		</Address>
+
 
 	</NationalPark>
 
@@ -123,7 +123,7 @@
 	<!-- Park 9 -->
 	<NationalPark>
 		<Name>Glacier Bay</Name>
-		<Phone>907-697-2230</Phone>
+		<!-- missing phone element -->
 		<Address NearestAirport="Gustavus Airport">
 			<Number>179</Number>
 			<Street>Bartlett Coved Rd</Street>
@@ -153,7 +153,7 @@
 	<NationalPark>
 		<Name>Gates of the Artic</Name>
 		<Phone>907-459-3730</Phone>
-		<Address NearestAirport="Fairbanks international Airport">
+		<Address> <!-- Missing atribute -->
 			<Number>101</Number>
 			<Street>Dunkel St</Street>
 			<City>Fairbanks</City>
@@ -163,4 +163,5 @@
 
 	</NationalPark>
 
-</NationalPark>
+
+</NationalPark> <!-- root name change-->
