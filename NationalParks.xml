@@ -1,5 +1,4 @@
 ﻿<!--<?xml version="1.0" encoding="utf-8" ?-->
-
 <NationalParks schemaLocation="https://raw.githubusercontent.com/tolani-tunde/cse445spring-assignment5-files/refs/heads/main/NationalParks.xsd?token=GHSAT0AAAAAADYFPMF5ABI63ZLOOTNSHZMY2OJ6C4A">
 	<!-- Park 1 -->
 	<NationalPark>
@@ -80,7 +79,7 @@
 	<NationalPark>
 		<Name>Everglades</Name>
 		<Phone>305 242-7700</Phone>
-		<Address NearestAirpot="Miami International Airport">
+		<Address NearestAirport="Miami International Airport">
 			<Number>40001</Number>
 			<Street>State Road 9336</Street>
 			<City>Homestead</City>
